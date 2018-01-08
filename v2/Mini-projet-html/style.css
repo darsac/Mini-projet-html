@@ -1,0 +1,31 @@
+body{
+	background-color: #585959;
+}
+.header{
+		background-color: #212121;
+		color: white;
+		}
+ .nav1{
+	background-color: #3E3E3E;
+	text-align: center;
+	width: 150px;
+	height: 750px;
+	padding-top: 200px;
+ }
+
+a{
+	color: white;
+}
+ h3{
+	text-decoration: underline;
+  }
+footer{
+	background-color: #686868;
+  	text-align: center;
+	  }
+ .block{
+	border: 5px;
+   	border-style: groove;
+   	padding-top: 10px;
+   	padding-bottom: 10px;
+	   }
