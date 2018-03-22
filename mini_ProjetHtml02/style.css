@@ -1,0 +1,17 @@
+.block
+{
+	border:5px;
+	border-style: groove;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	margin-left: 200px;
+}
+.blocknav
+{
+	border: 2px;
+	border-style: ridge;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
