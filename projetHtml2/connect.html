@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<meta charset="utf-8"/>
+			<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+			<link rel="stylesheet" href="style.css">
+			<title>Sign up</title>
+		</head>
+		
+		<body style="background-color: #585959">
+			<!--En-tete-->
+			<div class="w3-container w3-center"style="background-color: #212121;">
+				<h1 id="hautPage">HTML/CSS/javascript/PHP</h1>
+				<h2>Et ressource associer</h2>
+			</div>
+			<div class="w3-display-topright">
+				<form name="account" method="get">
+					<input type="button" value="Sign In" onclick=window.location.href="newAccount.html">
+					<input type="button" value="Sign Up" onclick=window.location.href="connect.html">
+				</form>
+			</div>
+			<div class="w3-row">
+				<!--menui de navigation-->
+			<div class="w3-col s4" style="background-color: #3E3E3E; width: 150px; padding-left: 10px;">
+					
+					<p><a href="home.html">Home</a></p><br>
+					<a href="ressource.html">Ressources</a><br>
+					<div class="blocknav w3-center">
+						<ul>
+							<li><a href="ressource.html?#HTML">HTML</a></li>
+							<li><a href="ressource.html?#CSS">CSS</a></li>
+							<li><a href="ressource.html?#JS">JavaScript</a></li>
+							<li><a href="ressource.html?#tuto">Tutoriels</a></li>
+							<li><a href="ressource.html?#outils">Outils</a></li>
+						</ul>
+					</div>
+					<p>Documentation</p>
+					<div class="blocknav w3-center">
+						<ul>
+							<p style="text-decoration: underline;">doc HTML</p>
+							<li><a href="https://www.w3schools.com/html/default.asp">Tuto HTML W3School</a></li>
+							<li><a href="https://developer.mozilla.org/fr/docs/Web/HTML">Tuto HTML MDN</a></li>
+							<p style="text-decoration: underline;">doc CSS</p>
+							<li><a href="https://www.w3schools.com/css/default.asp">Tuto CSS W3School</a></li>
+							<li><a href="https://developer.mozilla.org/fr/docs/Web/CSS">Tuto CSS MDN</a></li>
+							<p style="text-decoration: underline;">doc Javascript</p>
+							<li><a href="https://www.w3schools.com/js/default.asp">Tuto JS W3School</a></li>
+							<li><a href="https://developer.mozilla.org/fr/docs/Web/JavaScript">Tuto JS MDN</a></li>
+							<p style="text-decoration: underline;">doc PHP</p>
+							<li><a href="https://www.w3schools.com/php/default.asp">Tuto PHP W3School</a></li>
+						</ul>
+					</div>
+					<div class="blocknav w3-center">
+					<li><a href="histoire.html">Histoire</a></li>
+						<ul>
+							<li><a href="histoire.html?#Html">Histoire HTML</a></li>
+							<li><a href="histoire.html?#Css">Histoire CSS</a></li>
+							<li><a href="histoire.html?#JS">Histoire Javascript</a></li>
+							<li><a href="histoire.html?#PHP">Histoire PHP</a></li>
+						</ul>
+				</div>
+					<li><a href="listeRessource.html">Liste des sources</a></li>
+			</div>
+					<div class=" w3-container w3-col s9 w3-center w3-middle" style="position: absolute; top: 50%; left: 37%">
+					<form method="post" enctype="application/x-www-form-urlencoded" name="connect">
+  						<table border="5px" style="width: 450px; height: 350px;">
+   							<tr>
+      							<td><label for="pseudo">Pseudo : <br></label><input type="text" name="pseudo"></td>
+    						</tr>
+					    	<tr>
+					      		<td><label for="mdp">Mot de passe :<br></label><input type="password" name="mdp"></td>
+					    	</tr>
+					    	<tr>
+					    		<td><input type="submit" name="connection"></td>
+					    	</tr>
+					  </table>
+					 </form>
+					</div>
+				</div>
+				<div class="w3-container w3-center" style="background-color: #686868">
+					<p>createur:DALLE Olivier</p>
+					<p>Etudiant en informatique</p>
+					<p>Mini-Projet n°2</p>
+					<p><a href="#hautPage">retour haut de page</a></p>
+				</div>
+			</div>
+		</body>
+	</html>
